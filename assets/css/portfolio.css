@@ -8,6 +8,12 @@ body{
 	margin-right: 50px;
 
 }
+.mediaSm{
+	display: none;
+}
+.mediaSmNav{
+	display: none;
+}
 
 #navB {
 	width: 100%;
@@ -36,7 +42,7 @@ body{
 
 #navlink{
 	
-	margin: 20px 320px 30px 0px;
+	margin: 20px 200px 30px 0px;
 }
 
 #about{
@@ -74,7 +80,7 @@ body{
 	padding-top: 15px;
 	width:100%;
 	height:70px;
-	position:absolute;
+	
 	margin-bottom:0;
 	left:0;
 }
@@ -138,7 +144,7 @@ h1{
 
 }
 
-#dline{
+.dline{
 	width: 80%;
 	margin: 0 auto;
 	height: 3px;
@@ -272,4 +278,205 @@ h1{
 	padding-top: 10px;
 
 }
+@media screen and (max-width: 786px){
+	body{
+		width: 100%;
+		height: 100%;
+		
+	}
+	#banner1, #banner2, #banner3, #banner4, #banner5{
+		display:none;
+	}
+	#navName {
+	float: left;
+	text-align: center;
+	background-color: #4aaaa5;
+	height: 30px;
+	width: 150px;
+	padding: 20px 4px 0 4px;
+	margin: 20px 40px -20px 80px;
+	color: #fff;
+}
+	#navlink{
+		float:right;
+		margin-right: 50px;
+	}
+	h1{
+		padding-left: 20px;
+	}
+	#main1{
+		clear: both;
+		width: 80%;
+		margin: 10%;
+		margin-top: 20%;
+		padding: 0px;
+		height: 100%;
+		overflow:auto;
+		margin-bottom: 2%;
+	}
+	#connect{
+		clear:both;
+		margin-left: 0px;
+		margin:5%;
+		margin-left: 10%;
+		width: 624px;
+	}
 
+	#pic1{
+		float:left;
+		width: 40%;
+	}
+	#pic2{
+		float:left;
+		width: 40%;
+	}
+	#pic3{
+		float:left;
+		width:40%;
+		
+	}
+	#pic4{
+		float:right;
+		width: 40%;
+		margin-right: 50px;
+		margin-top: -245px;
+		
+		
+	}
+	#pic5{
+		margin-bottom: 20px;
+		float:left;
+		width:40%;
+	}
+	#banner1{
+		display:block;
+		margin-left:-260px;
+		width: 40%;
+		margin-top:210px;
+	}
+	#banner2{
+		display:block;
+		width: 40%;	
+		margin-left: 322px;
+		margin-top: -57px;
+	}
+	#banner3{
+		display:block;
+		width:40%;
+		margin-right: 0;
+		margin-left: 59px;
+	}
+	#banner4{
+		display:block;
+		width: 40%;
+		margin-top: -45px;
+		margin-left: 326px;
+	}
+	#banner5{
+		display:block;
+		width:40%;
+		margin-top:210px;
+		margin-left: -251px;
+	}
+
+	#footer1{
+		margin-top:9000px;
+	}
+	
+	
+}
+@media screen and (max-width:640px){
+	body{
+		width:100%;
+		height: 100%;
+	}
+	h1, h2{
+		padding-left: 20px;
+	}
+	#navB{
+		display: none;
+	}
+	.mediaSm{
+		display: block;
+		width: 100%;
+		height: 70px;
+		background-color: #4aaaa5;
+		font-size: 30px;
+		font-style: bold;
+		color: #fff;
+		text-align: center;
+		padding-top: 20px;	
+
+	}
+
+	.mediaSmNav{
+		display: block;
+		background-color: #fff;
+		width: 100%;
+		height: 70px;
+		text-align: center;
+		margin-bottom: -10%;
+
+	}
+	.about1, .port1, .contact1{
+		font-size: 20px;
+		padding-top: 19px;
+	}
+
+	.about1{
+		float: left;
+		padding-left: 151px;
+
+
+	}
+	.port1{
+		clear: both;
+		display: inline-block;
+
+	}
+	.contact1{
+		float: right;
+		padding-right: 151px;
+	}
+	#main1{
+		clear: both;
+		width: 80%;
+		margin: 10%;
+		margin-top: 20%;
+		padding: 0px;
+		height: 1500px;
+		overflow:auto;
+	}
+	#connect{
+		width:80%;
+		margin: 10%;
+		margin-top: 0px;
+		padding: 0px;
+	}
+	
+	#pic1, #pic2, #pic3, #pic4, #pic5{
+		width:90%;
+		padding: 5%;
+		height: 15%;
+		margin: 0 auto;
+
+	}
+	#banner1, #banner2, #banner3, #banner4, #banner5{
+		clear:both;
+		width: 80%;
+		padding: 5%;
+		margin-top: -110px;
+		margin-left: 25px;
+		text-align: center;
+		opacity: .8;
+		color: #fff;
+		font-weight: bold;
+	}
+	
+}
+
+
+
+/*@media screen and (max-width: 980px){
+
+}*/
